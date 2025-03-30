@@ -54,8 +54,8 @@
 							</h1>
 							<p class="mt-4 text-foreground">
 								At Tos<span class="text-primary">Tov</span>,
-								formulate your strategy to receive wonderful
-								gift packs idk
+								formulate your strategy to travel wonderful
+								journeys
 							</p>
 						</div>
 					</div>
@@ -121,9 +121,8 @@
 								</span>
 							</h1>
 							<p class="mt-4 text-foreground">
-								To get the best of your adventure you just need
-								to leave and go where you like. we are waiting
-								for you
+								Discover unfamiliar places, return as someone
+								entirely new. Every journey leaves its mark."
 							</p>
 						</div>
 					</div>
@@ -152,7 +151,7 @@
 						</div>
 						<WelcomeVectorTraveling />
 						<div class="mt-28">
-							<WelcomeButton link="/demo/"
+							<WelcomeButton link="/demo/home"
 								>Let's Travel</WelcomeButton
 							>
 						</div>

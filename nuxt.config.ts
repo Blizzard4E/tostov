@@ -1,6 +1,9 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
 	compatibilityDate: "2024-11-01",
+	nitro: {
+		preset: "node-server",
+	},
 	devtools: { enabled: true },
 	css: ["~/assets/css/main.css", "~/assets/css/animations.css"],
 	modules: [
@@ -23,7 +26,7 @@ export default defineNuxtConfig({
 	},
 	googleFonts: {
 		families: {
-			Poppins: [400, 500, 700],
+			Poppins: [400, 500, 600, 700],
 		},
 	},
 });
