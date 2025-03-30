@@ -127,10 +127,10 @@
 						</div>
 					</div>
 				</TransitionFade>
-				<div class="grid place-items-center absolute bottom-40">
+				<div class="flex justify-center absolute bottom-40">
 					<WelcomeArrowButton @click="handleStep" />
 				</div>
-				<div class="grid place-items-center absolute bottom-20">
+				<div class="flex justify-center absolute bottom-20">
 					<WelcomeSteps :step="step" />
 				</div>
 			</div>

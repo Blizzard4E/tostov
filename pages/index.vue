@@ -17,7 +17,7 @@
 			</div>
 		</nav>
 		<div
-			class="grid md:grid-cols-2 gap-12 md:absolute md:bottom-6 md:left-6"
+			class="grid md:grid-cols-2 gap-12 md:absolute md:bottom-24 md:left-6"
 		>
 			<div class="flex flex-col gap-6 mt-16 md:mt-[200px]">
 				<WelcomeVectorTraveling />
@@ -36,9 +36,6 @@
 				</p>
 			</div>
 			<div class="flex flex-col items-center justify-end gap-6">
-				<h1 class="font-bold text-4xl">
-					<span class="text-primary">TosTov</span> Demo
-				</h1>
 				<button @click="navigateTo('/demo')">
 					<img
 						class="w-[300px]"
@@ -46,6 +43,9 @@
 						alt=""
 					/>
 				</button>
+				<h1 class="font-bold text-4xl">
+					<span class="text-primary">TosTov</span> Demo
+				</h1>
 			</div>
 		</div>
 	</div>
