@@ -34,11 +34,12 @@
 					- take your travel to The next level
 				</p>
 			</div>
-			<Input
-				placeholder="Search destination"
-				class="text-xs"
+			<button
+				class="flex w-full rounded-xl border border-black/10 bg-white px-3 py-3 text-sm shadow-sm transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50"
 				@click="navigateTo('/demo/destination/search')"
-			/>
+			>
+				Search destination
+			</button>
 			<div class="grid grid-cols-3 gap-4">
 				<div
 					class="bg-white rounded-xl w-full flex items-center gap-3 text-xs py-3 px-4 active:scale-110 transition-all"

@@ -1,12 +1,12 @@
 <template>
-	<div class="w-full h-full">
+	<div class="w-full h-screen relative">
 		<TransitionFade
 			mode="out-in"
 			:duration="{ enter: 500, leave: 500 }"
 			easing="ease-in-out"
 		>
 			<div v-if="step < 3" class="grid place-items-center">
-				<div class="mt-24">
+				<div class="mt-8">
 					<TransitionFade
 						mode="out-in"
 						:duration="{ enter: 500, leave: 500 }"
@@ -29,7 +29,7 @@
 					<div v-if="step == 0">
 						<div class="w-[350px] text-center">
 							<h1
-								class="mt-8 text-3xl font-medium leading-[36px]"
+								class="mt-8 text-3xl font-medium leading-[36px] px-4"
 							>
 								<span>Life is short and the world is </span>
 								<span class="relative"
@@ -52,7 +52,7 @@
 									</div>
 								</span>
 							</h1>
-							<p class="mt-4 text-foreground">
+							<p class="mt-4 text-foreground px-4">
 								At Tos<span class="text-primary">Tov</span>,
 								formulate your strategy to travel wonderful
 								journeys
@@ -62,7 +62,7 @@
 					<div v-if="step == 1">
 						<div class="w-[350px] text-center">
 							<h1
-								class="mt-8 text-3xl font-medium leading-[36px]"
+								class="mt-8 text-3xl font-medium leading-[36px] px-4"
 							>
 								<span>It’s a big world out there go </span>
 								<span class="relative"
@@ -85,7 +85,7 @@
 									</div>
 								</span>
 							</h1>
-							<p class="mt-4 text-foreground">
+							<p class="mt-4 text-foreground px-4">
 								To get the best of your adventure you just need
 								to leave and go where you like. we are waiting
 								for you
@@ -95,7 +95,7 @@
 					<div v-if="step == 2">
 						<div class="w-[350px] text-center">
 							<h1
-								class="mt-8 text-3xl font-medium leading-[36px]"
+								class="mt-8 text-3xl font-medium leading-[36px] px-4"
 							>
 								<span
 									>People don’t take trips, trips take
@@ -120,25 +120,25 @@
 									</div>
 								</span>
 							</h1>
-							<p class="mt-4 text-foreground">
+							<p class="mt-4 text-foreground px-4">
 								Discover unfamiliar places, return as someone
 								entirely new. Every journey leaves its mark."
 							</p>
 						</div>
 					</div>
 				</TransitionFade>
-				<div class="flex justify-center absolute bottom-40">
-					<WelcomeArrowButton @click="handleStep" />
+				<div class="flex justify-center absolute bottom-28 w-full">
+					<div><WelcomeArrowButton @click="handleStep" /></div>
 				</div>
-				<div class="flex justify-center absolute bottom-20">
+				<div class="flex justify-center absolute bottom-20 w-full">
 					<WelcomeSteps :step="step" />
 				</div>
 			</div>
-			<div v-else class="w-full h-full bg-white">
+			<div v-else class="w-full h-full bg-white relative">
 				<div>
-					<div class="pt-20 grid place-items-center relative z-10">
+					<div class="pt-8 grid place-items-center relative z-10">
 						<h1 class="text-4xl font-extrabold">Welcome to</h1>
-						<div class="flex gap-2 mt-6 items-center pb-20">
+						<div class="flex gap-2 mt-6 items-center pb-16">
 							<img
 								src="/images/tostov-logo.png"
 								class="w-12 aspect-square"
@@ -150,12 +150,14 @@
 							</h1>
 						</div>
 						<WelcomeVectorTraveling />
-						<div class="mt-28">
-							<WelcomeButton link="/demo/home"
-								>Let's Travel</WelcomeButton
-							>
-						</div>
 					</div>
+				</div>
+				<div
+					class="grid place-items-center absolute bottom-28 left-0 z-10 w-full"
+				>
+					<WelcomeButton link="/demo/home"
+						>Let's Travel</WelcomeButton
+					>
 				</div>
 			</div>
 		</TransitionFade>

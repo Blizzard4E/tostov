@@ -1,5 +1,5 @@
 <template>
-	<div class="bg-black w-full min-h-screen h-full">
+	<div class="bg-white w-full min-h-screen h-full">
 		<FrameIPhone14>
 			<slot />
 		</FrameIPhone14>
