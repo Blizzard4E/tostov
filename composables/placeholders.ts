@@ -1,19 +1,19 @@
 export const placeholderDestinations: Destination[] = [
 	{
 		id: "0",
-		name: "The Museum Café",
+		name: "Café Museum",
 		description:
-			"TThe coffee shop is next to the National Museum and the Royal University of Fine Arts. It has inside space with air conditioner but not many seats, the outside space with many trees, very natural.",
-		cover: "https://res.cloudinary.com/duzvevuup/image/upload/v1743330409/TosTov/museum-cafe_m8hlp3.jpg",
-		address: "HW8H+9F Phnom Penh",
+			"Lying on the 5th floor of U Mall, Café Museum offers trendy aesthetics and modern minimalism setting for coffee lovers seeking a quiet space to work, read, or simply unwind. With their unique menu items, signature drinks, and delicious pastries make you want to revisit and try everything.  Combine with their unique theme, Café Museum truly worth a visit.",
+		cover: "https://res.cloudinary.com/duzvevuup/image/upload/v1743393937/TosTov/tiivmxvudnl5s4oo7ocz.jpg",
+		address: "U Mall, 5th Floor, Phnom Penh",
 		rating: 5,
 	},
 	{
 		id: "1",
 		name: "May Floral&Cafe",
 		description:
-			"Where artistry meets nature - May Floral&Cafe transforms life's special moments into breathtaking botanical expressions. Our handcrafted arrangements blend contemporary design with timeless elegance, creating personalized pieces that speak the language of flowers. Step into our serene oasis in the heart of Phnom Penh, where every bloom tells a story and every creation celebrates the beauty of your unique occasions.",
-		cover: "https://res.cloudinary.com/duzvevuup/image/upload/v1743330410/TosTov/flower_eccmd9.jpg",
+			'Near the Independence Monument, a combination of café and floral shop truly stand out from your typical conventional coffee shop comfort. Though with limited options of their beverage menu (fruit tea and matcha only) May Floral&Cafe creates a visually stunning environment perfectly "Instagrammable" and make you want to stay longer for their sweet fragrant atmosphere. Bring your love one for a visit, as you can get them a refreshing drink and a lovely set of flowers.',
+		cover: "https://res.cloudinary.com/duzvevuup/image/upload/v1743394256/TosTov/flower_duzuyk.jpg",
 		address: "14 Samdach Louis Em St. (282), Phnom Penh",
 		rating: 5,
 	},
@@ -21,17 +21,17 @@ export const placeholderDestinations: Destination[] = [
 		id: "2",
 		name: "Cā Feve Coffee & Eatery",
 		description:
-			"Ca Feve has a cozy, sun-filled atmosphere with soft yellow and orange concept, perfect for summer. Inside, you’ll find a mix of wooden tables and plants, with the scent of fresh coffee and pastries filling the air. The outdoor patio is a great spot to enjoy iced drinks and soak up the warm breeze, making it an ideal place to relax",
-		cover: "https://res.cloudinary.com/duzvevuup/image/upload/v1743330410/TosTov/cafeve_qp4heq.jpg",
-		address: "St 123, Phnom Penh",
+			'Who knows in the Toul Tom Poung (TTP) area of Phnom Penh lies a café with stunning floral decorations. Cā Feve Coffee & Eatery offers both indoor and outdoor atmostphere, providing such a nice escape with a variety of coffee and other refreshments, sweet parties, and appetizing meals. "Cozy" and "beautiful", worthy of an insta post.',
+		cover: "https://res.cloudinary.com/duzvevuup/image/upload/v1743394390/TosTov/cafeve_pogfwr.jpg",
+		address: "Toul Tom Poung (TTP) area, St 123",
 		rating: 5,
 	},
 	{
 		id: "3",
 		name: "Weeee Wonder Coffee",
 		description:
-			"Weeee Wonder Coffee is a charming local café, founded by a group of young entrepreneurs, that has quickly become a favorite among those seeking a homestyle and comfortable environment.",
-		cover: "https://res.cloudinary.com/duzvevuup/image/upload/v1743330409/TosTov/wee_npg24i.jpg",
+			"Looking for wide range of drinks? Weeee Wonder Coffee is the place for you. Their unqiue menu offers a diverse selection of drinks, including classic coffee options (Latte, Americano, Cappuccino, Mocha), as well as specialty items like Pumpkin Latte, Shaken Yuzu Espresso, and Black Sugarcane, and also a variety of Matcha drinks, fruit teas and other iced and hot beverages. Cute, modern, trendy, exlusive drinks perfect to mix up a new taste to your daily dose of caffeine. ",
+		cover: "https://res.cloudinary.com/duzvevuup/image/upload/v1743394427/TosTov/wee_rnhimr.jpg",
 		address: "45 Road, Room 1, Daun Penh, Phnom Penh",
 		rating: 5,
 	},
@@ -39,8 +39,8 @@ export const placeholderDestinations: Destination[] = [
 		id: "4",
 		name: "PAENG Cafe & Eatery",
 		description:
-			"Whether you're looking for a cozy corner to read a book or catch up with friends over a cup of coffee, PAENG cafe has got you covered.",
-		cover: "https://res.cloudinary.com/duzvevuup/image/upload/v1743330409/TosTov/paeng_zzrklk.jpg",
+			"More than just a place to grab a quick bite. PAENG Cafe & Eatery offers buffet meal, a wide range of Khmer, Thai, and Vietnamese cuisines within a warm and inviting atmosphere and affordable price. Located near the Royal Palace, both locals and travelers can experience a taste of local culture and flavors.  Don't miss the opportunity to try their amazing egg coffee, a highly recommended beverage.",
+		cover: "https://res.cloudinary.com/duzvevuup/image/upload/v1743394491/TosTov/paeng_abiyek.jpg",
 		address: "No.99, CORNER ST.136 AND ST, 13, Phnom Penh",
 		rating: 5,
 	},
